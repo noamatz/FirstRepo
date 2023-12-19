@@ -3,14 +3,12 @@
  */
 public class AddTwo {
 	public static void main(String[] args) {
-		int x;
-		int y;
-		x = 10;
-		y = 5;
+		int x = Integer.parseInt(args[0]);
+		int y = Integer.parseInt(args[1]);
 		System.out.println("The addition of two variables is ");
-		System.out.println("               10                 ");
+		System.out.println("               " + x + "                 ");
 		System.out.println("                +                 ");
-		System.out.println("                5                 ");
+		System.out.println("                " + y + "                 ");
 		System.out.println("                =                 ");
 		System.out.println("               " + (x + y) + "                 ");
 
